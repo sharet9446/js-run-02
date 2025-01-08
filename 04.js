@@ -12,10 +12,14 @@
  */
 
 // TODO: filterEven 함수를 작성하세요.
-function filterEven() {}
-
+function filterEven(arr) {
+    return arr.filter(eli => eli % 2 === 0);
+}
+console.log('filterEven([1, 2, 3, 4]): ', filterEven([1, 2, 3, 4]));
 // TODO: filterOdd 함수를 작성하세요.
-function filterOdd() {}
-
+function filterOdd(arr) {
+    return arr.filter(eli => eli % 2 === 1);
+}
+console.log('filterOdd([1, 2, 3, 4]): ', filterOdd([1, 2, 3, 4]));
 // export를 수정하지 마세요.
 export { filterEven, filterOdd };

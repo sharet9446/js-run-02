@@ -24,7 +24,7 @@
 function findUserByName(users, name) {
     console.log(users)
     return users.find(eli => eli.name === name) || null;
-    
+
 }
 
 
